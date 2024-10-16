@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "title": "Título 1",
+        "description": "Na primeira refeição do dia, é uma excelente companhia, sobretudo o pão escuro (de mistura, centeio, integral ou de cereais) - como é rico em fibras é absorvido de forma mais lenta.",
+        "image": "../assets/images/imagemTeste.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Título 2",
+        "description": "O melhor pão é o feito em casa. Mas, se não é possível encarar uma produção caseira, é mais saudável optar pelos pães preparados em padaria sem aditivos conservantes.",
+        "image": "../assets/images/imagemTeste.jpg"
+    },
+    {
+        "id": "3",
+        "title": "Título 3",
+        "description": "Também existe uma versão menor e mais arredondada da ciabatta, a ciabattina, perfeita para lanches individuais ou acompanhamentos.",
+        "image": "../assets/images/imagemTeste.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Título 4",
+        "description": "Na *capital do estado de São Paulo,* por sua vez, pãozinho é o nome dado ao pão francês. No *Ceará,* carioquinha. No *Rio Grande do Sul,* cassetinho. Em *Sergipe,* pão jacó.",
+        "image": "../assets/images/imagemTeste.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Título 5",
+        "description": "Na primeira refeição do dia, é uma excelente companhia, sobretudo o pão escuro (de mistura, centeio, integral ou de cereais) - como é rico em fibras é absorvido de forma mais lenta.",
+        "image": "../assets/images/imagemTeste.jpg"
+    },
+    {
+        "id": "6",
+        "title": "Título 6",
+        "description": "O melhor pão é o feito em casa. Mas, se não é possível encarar uma produção caseira, é mais saudável optar pelos pães preparados em padaria sem aditivos conservantes.",
+        "image": "../assets/images/imagemTeste.jpg"
+    },
+    {
+        "id": "7",
+        "title": "Título 7",
+        "description": "Também existe uma versão menor e mais arredondada da ciabatta, a ciabattina, perfeita para lanches individuais ou acompanhamentos.",
+        "image": "../assets/images/imagemTeste.jpg"
+    },
+    {
+        "id": "8",
+        "title": "Título ",
+        "description": "Na *capital do estado de São Paulo,* por sua vez, pãozinho é o nome dado ao pão francês. No *Ceará,* carioquinha. No *Rio Grande do Sul,* cassetinho. Em *Sergipe,* pão jacó.",
+        "image": "../assets/images/imagemTeste.jpg"
+    }
+]
