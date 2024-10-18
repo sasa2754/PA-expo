@@ -9,7 +9,15 @@ const styles = StyleSheet.create({
         paddingHorizontal: 4,
         paddingVertical: 3,
         gap: 5,
-        
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 3,
+        },
+        shadowOpacity: 0.29,
+        shadowRadius: 4.65,
+
+        elevation: 7,
     },
     title: {
         color: '#FFFFFFFF',
@@ -20,6 +28,7 @@ const styles = StyleSheet.create({
         width: 40,
         height: 40
     }
+    
 });
 
 export const Header = ({image, title} : {image: ImageSourcePropType | undefined, title: string}) => {

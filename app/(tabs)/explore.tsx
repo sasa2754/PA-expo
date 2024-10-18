@@ -7,7 +7,7 @@ export default function TabTwoScreen() {
   return (
     <>
       <Header title='Explore' image={require("../../assets/images/react-logo.png")}/>
-      <Text>Segunda pag</Text>
+      <Text>Pagina para estudo dos componentes react</Text>
     </>
   );
 }

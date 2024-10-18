@@ -28,9 +28,6 @@ export default function List() {
     return (
         <>
             <Header title='List' image={require("../../assets/images/react-logo.png")}/>
-            {/* <View style={styles.cardBox}>
-                <Card title="Titulo"/>
-            </View> */}
 
              <SafeAreaView style={styles.container}>
                 <Text style={styles.title}>Listinha fofa</Text>
@@ -39,8 +36,6 @@ export default function List() {
                     keyExtractor={item => item.id}
                     data={data}
                     renderItem={({item}) =>{
-                        
-                    
                         return (
                             <Card title={item.title} image={item.image} description={item.description}/>
                         )
