@@ -1,14 +1,15 @@
-import { Image, ImageSourcePropType, Text, View, StyleSheet } from "react-native"
+import { Image, ImageSourcePropType, Text, View, StyleSheet, SafeAreaView } from "react-native"
 
 const styles = StyleSheet.create({
     background: {
-        backgroundColor: '#4B4B4BFF',
+        backgroundColor: '#7511B8FF',
         display: 'flex',
         flexDirection: 'row',
-        alignItems: 'center',
-        paddingHorizontal: 4,
-        paddingVertical: 3,
-        gap: 5,
+        alignItems: 'flex-end',
+        paddingHorizontal: 10,
+        height: 80,
+        paddingVertical: 5,
+        gap: 12,
         shadowColor: "#000",
         shadowOffset: {
             width: 0,
@@ -21,11 +22,13 @@ const styles = StyleSheet.create({
     title: {
         color: '#FFFFFFFF',
         fontSize: 18,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        bottom: 6
     },
     image: {
-        width: 40,
-        height: 40
+        width: 35,
+        height: 35,
+        bottom: 4
     }
     
 });
@@ -33,10 +36,10 @@ const styles = StyleSheet.create({
 export const Header = ({image, title} : {image: ImageSourcePropType | undefined, title: string}) => {
     return (
         <>
-            <View style={styles.background}>
+            <SafeAreaView style={styles.background}>
                 <Image style={styles.image} source={image}/>
                 <Text style={styles.title}>{title}</Text>
-            </View>
+            </SafeAreaView>
         </>
     )
 }

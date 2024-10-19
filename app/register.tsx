@@ -15,14 +15,15 @@ const styles = StyleSheet.create({
         backgroundColor: '#ffffff',
         bottom: 0,
         position: 'absolute',
-        padding: 10,
-        justifyContent: 'center'
+        // padding: 10,
+        // justifyContent: 'center'
     },
     cadastro: {
         maxHeight: 300,
         alignSelf: 'center',
         gap: 35,
-        alignItems: 'center'
+        alignItems: 'center',
+        top: 100
     },
     title: {
         fontFamily: 'Karla',
@@ -89,8 +90,8 @@ export default function Login() {
                 style={styles.container}
             >
                 <View style={styles.box}>
-                    <Text style={styles.title}>Cadastro</Text> 
                         <View style={styles.cadastro}>
+                            <Text style={styles.title}>Cadastro</Text> 
                             <View style={styles.inputBox}>
                                 <View>
                                     <Text style={styles.label}>Email</Text>
@@ -102,11 +103,31 @@ export default function Login() {
                                 </View>
                                 
                                 <View>
-                                    <Text style={styles.label}>Senha</Text>
+                                    <Text style={styles.label}>Data de nascimento</Text>
                                     <TextInput 
                                         style={styles.input} 
                                         onChangeText={setPass} 
                                         keyboardType="default" 
+                                        secureTextEntry
+                                    />
+                                </View>
+
+                                <View>
+                                    <Text style={styles.label}>Senha</Text>
+                                    <TextInput 
+                                        style={styles.input} 
+                                        onChangeText={setPass} 
+                                        keyboardType="numeric" 
+                                        secureTextEntry
+                                    />
+                                </View>
+
+                                <View>
+                                    <Text style={styles.label}>Confirme sua senha</Text>
+                                    <TextInput 
+                                        style={styles.input} 
+                                        onChangeText={setPass} 
+                                        keyboardType="numeric" 
                                         secureTextEntry
                                     />
                                 </View>

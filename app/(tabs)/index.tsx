@@ -1,18 +1,17 @@
 import { Header } from '@/components/header';
-import { Image, StyleSheet, Platform, Text, View } from 'react-native';
+import { Image, StyleSheet, Platform, Text, View, SafeAreaView } from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    display: 'flex',
-
+    flex: 1,
   }
 });
 
 export default function HomeScreen() {
   return (
-    <View>
-      <Header title='Index' image={require("../../assets/images/react-logo.png")}/>
+    <SafeAreaView style={styles.container}>
+      <Header title='Index' image={require("../../assets/images/coroa.png")}/>
       <Text>Index das tabs</Text>
-    </View>
+    </SafeAreaView>
   );
 }

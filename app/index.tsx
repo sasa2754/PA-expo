@@ -16,8 +16,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#ffffff',
         bottom: 0,
         position: 'absolute',
-        padding: 10,
-        justifyContent: 'center'
+        // padding: 10,
+        // justifyContent: 'center'
     },
     perfil: {
         alignSelf: 'center',
@@ -27,10 +27,13 @@ const styles = StyleSheet.create({
         objectFit: 'scale-down',
     },
     login: {
-        maxHeight: 300,
+        maxHeight: '100%',
         alignSelf: 'center',
         gap: 35,
-        alignItems: 'center'
+        alignItems: 'center',
+        justifyContent: 'center',
+        // paddingVertical: 20,
+        top: 100
     },
     title: {
         fontFamily: 'Karla',
@@ -118,7 +121,7 @@ export default function Login() {
                                 <TextInput 
                                     style={styles.input} 
                                     onChangeText={setPass} 
-                                    keyboardType="default" 
+                                    keyboardType="numeric" 
                                     secureTextEntry
                                 />
                             </View>

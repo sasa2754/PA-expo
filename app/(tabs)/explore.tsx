@@ -6,7 +6,7 @@ import { Header } from '@/components/header';
 export default function TabTwoScreen() {
   return (
     <>
-      <Header title='Explore' image={require("../../assets/images/react-logo.png")}/>
+      <Header title='Explore' image={require("../../assets/images/coroa.png")}/>
       <Text>Pagina para estudo dos componentes react</Text>
     </>
   );

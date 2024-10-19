@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
 export default function List() {
     return (
         <>
-            <Header title='List' image={require("../../assets/images/react-logo.png")}/>
+            <Header title='List' image={require("../../assets/images/coroa.png")}/>
 
              <SafeAreaView style={styles.container}>
                 <Text style={styles.title}>Listinha fofa</Text>
