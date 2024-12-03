@@ -4,8 +4,8 @@ import { Image } from "expo-image";
 const styles = StyleSheet.create({
     card: {
         display: 'flex',
-        backgroundColor: '#D3D3D3FF',
-        maxWidth: 800,
+        backgroundColor: '#FFFFFFFF',
+        maxWidth: 330,
         padding: 5,
         gap: 2,
         borderRadius: 5,
@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
         shadowOpacity: 1,
         shadowRadius: 4.65,
         elevation: 7,
+        alignSelf: 'center'
     },
     title: {
         fontSize: 20,
@@ -31,7 +32,8 @@ const styles = StyleSheet.create({
         width: 300,
         height: 200,
         margin: 5,
-        borderRadius: 5
+        borderRadius: 5,
+        resizeMode: 'contain'
     },
     description: {
         textAlign: 'center',
@@ -43,7 +45,7 @@ const styles = StyleSheet.create({
 export const Card = ({title, description, image} : {title: string, description: string, image: string}) => {
     return (
         <View style={styles.card}>
-            <Image style={styles.image} source={image}/>
+            <Image style={styles.image} source={{ uri : image }}/>
             <Text style={styles.title}>{title}</Text>
             <Text style={styles.description}>{description}</Text>
         </View>

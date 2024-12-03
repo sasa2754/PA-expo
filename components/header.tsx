@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         alignItems: 'flex-end',
         paddingHorizontal: 10,
-        height: 80,
+        height: 50,
         paddingVertical: 5,
         gap: 12,
         shadowColor: "#000",
@@ -28,7 +28,8 @@ const styles = StyleSheet.create({
     image: {
         width: 35,
         height: 35,
-        bottom: 4
+        bottom: 4,
+        left: 5
     }
     
 });
